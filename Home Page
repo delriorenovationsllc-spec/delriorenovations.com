@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Del Rio Renovations Aurora LLC — Quality bathroom remodels, kitchen renovations, flooring, painting & general contracting in Aurora, Denver CO. 15+ years experience. Lead Safe Certified.">
+    <meta name="keywords" content="bathroom remodel Aurora CO, kitchen renovation Denver, flooring install Aurora, general contractor Aurora Colorado, curbless shower, bathroom contractor near me">
+    <meta property="og:title" content="Del Rio Renovations Aurora LLC — Quality Bathroom Remodels Built to Last">
+    <meta property="og:description" content="Family-owned general contracting. Bathroom remodels, kitchens, flooring, painting & more. Serving Aurora, Denver & 100 miles out. Free consultations.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://delriorenovations.com">
+    <title>Del Rio Renovations Aurora LLC | Quality Bathroom Remodels Built to Last</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ======================== TOP BAR ======================== -->
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-bar-left">
+                <a href="tel:7208768875"><i class="fas fa-phone"></i> (720) 876-8875</a>
+                <span class="top-bar-divider">|</span>
+                <a href="mailto:delriorenovationsllc@gmail.com"><i class="fas fa-envelope"></i> delriorenovationsllc@gmail.com</a>
+            </div>
+            <div class="top-bar-right">
+                <span><i class="fas fa-clock"></i> Mon–Sat: 7AM – 7PM</span>
+                <div class="top-bar-social">
+                    <a href="https://facebook.com/delriorenovationsLLC" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/delriorenovationsllc.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                <button class="lang-toggle" id="langToggle" title="Cambiar a Español">ES</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================== NAVBAR ======================== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="index.html" class="nav-logo">
+                <!-- Replace src with your actual logo file -->
+                <img src="images/logo.png" alt="Del Rio Renovations Logo" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li class="has-dropdown">
+                    <a href="services.html" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="services.html#bathrooms">Bathroom Remodels</a></li>
+                        <li><a href="services.html#kitchens">Kitchen Renovations</a></li>
+                        <li><a href="services.html#flooring">Flooring</a></li>
+                        <li><a href="services.html#painting">Painting</a></li>
+                        <li><a href="services.html#drywall">Drywall & Framing</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="contact.html" class="nav-cta">Schedule a Consultation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ======================== HERO ======================== -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-badge">Lead Safe Certified • Insured • Bilingual</span>
+            <h1>Quality Bathroom Remodels <span class="gold">Built to Last</span></h1>
+            <p class="hero-sub">Family-owned general contracting with 15+ years of hands-on experience. Serving Aurora, Denver, and all of the Colorado Front Range.</p>
+            <div class="hero-btns">
+                <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
+                <a href="gallery.html" class="btn btn-outline">View Our Work</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="500">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    <span class="stat-label">5-Star Rated</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== SERVICES OVERVIEW ======================== -->
+    <section class="services-overview section" id="services-preview">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What We Do</span>
+                <h2>Our <span class="gold">Services</span></h2>
+                <p>From full bathroom remodels to drywall finishing — we handle every detail with quality craftsmanship.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-bath"></i></div>
+                    <h3>Bathroom Remodels</h3>
+                    <p>Curbless shower pans, vanity installs, full custom baths, acrylic & groutless tile — our specialty.</p>
+                    <a href="services.html#bathrooms" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Kitchen Renovations</h3>
+                    <p>Complete kitchen transformations from layout to finish. Cabinets, countertops, backsplash & more.</p>
+                    <a href="services.html#kitchens" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Flooring Installs</h3>
+                    <p>All types of flooring — tile, hardwood, LVP, laminate. Expert installation for every room.</p>
+                    <a href="services.html#flooring" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-paint-roller"></i></div>
+                    <h3>Interior & Exterior Painting</h3>
+                    <p>Clean lines, quality paint, professional prep. Transform any space inside or out.</p>
+                    <a href="services.html#painting" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-hammer"></i></div>
+                    <h3>Framing & Drywall</h3>
+                    <p>Structural framing, drywall hanging, taping, mud work and finishing — done right the first time.</p>
+                    <a href="services.html#drywall" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-home"></i></div>
+                    <h3>General Contracting</h3>
+                    <p>Full residential renovations. Whatever your project needs, we have the experience to deliver.</p>
+                    <a href="services.html" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== ABOUT PREVIEW ======================== -->
+    <section class="about-preview section section-dark">
+        <div class="container about-preview-inner">
+            <div class="about-preview-image">
+                <!-- Ricardo's job site selfie -->
+                <img src="images/about-ricardo.jpg" alt="Ricardo Del Rio Solis - Owner of Del Rio Renovations" loading="lazy">
+                <div class="experience-badge">
+                    <span class="exp-number">15+</span>
+                    <span class="exp-text">Years<br>Experience</span>
+                </div>
+            </div>
+            <div class="about-preview-text">
+                <span class="section-tag">Who We Are</span>
+                <h2>Built on <span class="gold">Family</span> & Hard Work</h2>
+                <p>At just 15 years old, founder Ricardo Del Rio Solis started working alongside his father on commercial job sites in downtown Denver — watching buildings go up from scratch and finishing lobbies and bathrooms with precision tile work.</p>
+                <p>After years working for some of the biggest residential bath remodeling companies in Colorado, Ricardo built Del Rio Renovations to deliver the quality, transparency, and communication that every homeowner deserves.</p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Lead Safe Certified & Insured</span>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Bilingual — English & Spanish</span>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Family-Owned & Operated</span>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Transparent Pricing & Communication</span>
+                    </div>
+                </div>
+                <a href="about.html" class="btn btn-primary">Our Full Story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== BEFORE/AFTER ======================== -->
+    <section class="before-after section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Results</span>
+                <h2>Before & <span class="gold">After</span></h2>
+                <p>See the transformations we deliver for real Colorado homeowners.</p>
+            </div>
+            <div class="ba-slider-container">
+                <div class="ba-slide active" id="baSlide1">
+                    <div class="ba-wrapper">
+                        <img src="images/gallery/before-1.jpg" alt="Bathroom Before Renovation" class="ba-before">
+                        <img src="images/gallery/after-1.jpg" alt="Bathroom After Renovation" class="ba-after">
+                        <input type="range" min="0" max="100" value="50" class="ba-range" aria-label="Before and after comparison slider">
+                        <div class="ba-label ba-label-before">Before</div>
+                        <div class="ba-label ba-label-after">After</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-2">
+                <a href="gallery.html" class="btn btn-outline-dark">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== WHY CHOOSE US ======================== -->
+    <section class="why-us section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why Del Rio</span>
+                <h2>What Sets Us <span class="gold">Apart</span></h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Total Transparency</h3>
+                    <p>We've been on both sides — contractor and client. We know the risks, concerns, and questions. You'll never be left guessing.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Clear Communication</h3>
+                    <p>Detailed plans, timelines, and pricing shared upfront. We stay on the same page throughout your entire project.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                    <h3>Detailed Estimates</h3>
+                    <p>Up-to-date pricing by the square foot. Detailed estimates and invoices provided so every dollar is accounted for.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Vetted Team</h3>
+                    <p>Every subcontractor is background-checked and vetted for quality, experience, and communication alignment.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-language"></i></div>
+                    <h3>Bilingual Service</h3>
+                    <p>Hablamos Español. Full service in English and Spanish so every homeowner feels comfortable and understood.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Certified & Insured</h3>
+                    <p>Lead Safe Certified and fully insured. Your home and family are protected on every job we take on.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== TESTIMONIALS ======================== -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Reviews</span>
+                <h2>What Our Clients <span class="gold">Say</span></h2>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Ricardo and Diego were very professional and did excellent work. I would recommend them to any one."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">HL</div>
+                        <div>
+                            <strong>Hans Lagasse</strong>
+                            <span>Google Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Outstanding quality and communication from start to finish. Del Rio Renovations truly cares about their clients."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">PL</div>
+                        <div>
+                            <strong>Princess Lopez</strong>
+                            <span>Google Review</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== SERVICE AREA ======================== -->
+    <section class="service-area section section-dark">
+        <div class="container service-area-inner">
+            <div class="service-area-text">
+                <span class="section-tag">Where We Work</span>
+                <h2>Serving <span class="gold">Aurora, Denver</span> & Beyond</h2>
+                <p>We serve homeowners throughout the Colorado Front Range — anywhere within 100 miles of Aurora. Whether you're in Denver, Colorado Springs, Boulder, Fort Collins, or surrounding communities, we'll come to you.</p>
+                <ul class="area-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Aurora</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Denver</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Centennial</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Lakewood</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Thornton</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Arvada</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Westminster</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Parker</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Castle Rock</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Brighton</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Colorado Springs</li>
+                    <li><i class="fas fa-map-marker-alt"></i> And more!</li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            </div>
+            <div class="service-area-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196281.12937852596!2d-104.87067!3d39.72943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c5e52f8da4b1d%3A0x30ca3e17a32fa6b8!2sAurora%2C%20CO!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="400" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== CTA BANNER ======================== -->
+    <section class="cta-banner">
+        <div class="container cta-inner">
+            <div class="cta-text">
+                <h2>Ready to Transform Your <span class="gold">Home?</span></h2>
+                <p>Let's talk about your project. Schedule a free consultation today.</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary btn-lg">Schedule a Consultation</a>
+                <a href="tel:7208768875" class="btn btn-outline btn-lg"><i class="fas fa-phone"></i> (720) 876-8875</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== FOOTER ======================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="Del Rio Renovations Logo" class="footer-logo">
+                    <p>Quality craftsmanship and transparent communication on every project. Family-owned, serving Colorado homeowners for 15+ years.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/delriorenovationsLLC" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/delriorenovationsllc.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#bathrooms">Bathroom Remodels</a></li>
+                        <li><a href="services.html#kitchens">Kitchen Renovations</a></li>
+                        <li><a href="services.html#flooring">Flooring Installation</a></li>
+                        <li><a href="services.html#painting">Interior & Exterior Painting</a></li>
+                        <li><a href="services.html#drywall">Framing & Drywall</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i> <a href="tel:7208768875">(720) 876-8875</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:delriorenovationsllc@gmail.com">delriorenovationsllc@gmail.com</a></li>
+                        <li><i class="fas fa-clock"></i> Mon–Sat: 7AM – 7PM</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Aurora, CO — Serving 100mi radius</li>
+                    </ul>
+                    <div class="footer-badges">
+                        <span class="badge"><i class="fas fa-shield-alt"></i> Lead Safe Certified</span>
+                        <span class="badge"><i class="fas fa-file-contract"></i> Fully Insured</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Del Rio Renovations Aurora LLC. All rights reserved.</p>
+                <p>Hablamos Español | Se habla Español</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======================== CHATBOT ======================== -->
+    <div class="chatbot-toggle" id="chatbotToggle">
+        <i class="fas fa-comments"></i>
+    </div>
+    <div class="chatbot" id="chatbot">
+        <div class="chatbot-header">
+            <img src="images/logo.png" alt="Del Rio" class="chatbot-logo">
+            <div>
+                <strong>Del Rio Renovations</strong>
+                <span>We typically reply instantly</span>
+            </div>
+            <button class="chatbot-close" id="chatbotClose"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chatbot-messages" id="chatMessages">
+            <div class="chat-msg bot">
+                <p>👋 Hi! Welcome to Del Rio Renovations. How can I help you today?</p>
+                <div class="chat-options">
+                    <button class="chat-option" data-action="services">What services do you offer?</button>
+                    <button class="chat-option" data-action="pricing">How does pricing work?</button>
+                    <button class="chat-option" data-action="timeline">How long will my project take?</button>
+                    <button class="chat-option" data-action="financing">Do you offer financing?</button>
+                    <button class="chat-option" data-action="area">What areas do you serve?</button>
+                    <button class="chat-option" data-action="consultation">Schedule a consultation</button>
+                    <button class="chat-option" data-action="call">Talk to someone now</button>
+                </div>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatInput" placeholder="Type a question...">
+            <button id="chatSend"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
