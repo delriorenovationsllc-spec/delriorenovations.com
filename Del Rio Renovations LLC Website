@@ -1,0 +1,2187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Del Rio Renovations Aurora LLC — Quality bathroom remodels, kitchen renovations, flooring, painting & general contracting in Aurora, Denver CO. 15+ years experience. Lead Safe Certified.">
+    <meta name="keywords" content="bathroom remodel Aurora CO, kitchen renovation Denver, flooring install Aurora, general contractor Aurora Colorado, curbless shower, bathroom contractor near me">
+    <meta property="og:title" content="Del Rio Renovations Aurora LLC — Quality Bathroom Remodels Built to Last">
+    <meta property="og:description" content="Family-owned general contracting. Bathroom remodels, kitchens, flooring, painting & more. Serving Aurora, Denver & 100 miles out. Free consultations.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://delriorenovations.com">
+    <title>Del Rio Renovations Aurora LLC | Quality Bathroom Remodels Built to Last</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ======================== TOP BAR ======================== -->
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-bar-left">
+                <a href="tel:7208768875"><i class="fas fa-phone"></i> (720) 876-8875</a>
+                <span class="top-bar-divider">|</span>
+                <a href="mailto:delriorenovationsllc@gmail.com"><i class="fas fa-envelope"></i> delriorenovationsllc@gmail.com</a>
+            </div>
+            <div class="top-bar-right">
+                <span><i class="fas fa-clock"></i> Mon–Sat: 7AM – 7PM</span>
+                <div class="top-bar-social">
+                    <a href="https://facebook.com/delriorenovationsLLC" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/delriorenovationsllc.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                <button class="lang-toggle" id="langToggle" title="Cambiar a Español">ES</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================== NAVBAR ======================== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="index.html" class="nav-logo">
+                <!-- Replace src with your actual logo file -->
+                <img src="images/logo.png" alt="Del Rio Renovations Logo" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li class="has-dropdown">
+                    <a href="services.html" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="services.html#bathrooms">Bathroom Remodels</a></li>
+                        <li><a href="services.html#kitchens">Kitchen Renovations</a></li>
+                        <li><a href="services.html#flooring">Flooring</a></li>
+                        <li><a href="services.html#painting">Painting</a></li>
+                        <li><a href="services.html#drywall">Drywall & Framing</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="contact.html" class="nav-cta">Schedule a Consultation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ======================== HERO ======================== -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-badge">Lead Safe Certified • Insured • Bilingual</span>
+            <h1>Quality Bathroom Remodels <span class="gold">Built to Last</span></h1>
+            <p class="hero-sub">Family-owned general contracting with 15+ years of hands-on experience. Serving Aurora, Denver, and all of the Colorado Front Range.</p>
+            <div class="hero-btns">
+                <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
+                <a href="gallery.html" class="btn btn-outline">View Our Work</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="500">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    <span class="stat-label">5-Star Rated</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== SERVICES OVERVIEW ======================== -->
+    <section class="services-overview section" id="services-preview">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What We Do</span>
+                <h2>Our <span class="gold">Services</span></h2>
+                <p>From full bathroom remodels to drywall finishing — we handle every detail with quality craftsmanship.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-bath"></i></div>
+                    <h3>Bathroom Remodels</h3>
+                    <p>Curbless shower pans, vanity installs, full custom baths, acrylic & groutless tile — our specialty.</p>
+                    <a href="services.html#bathrooms" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Kitchen Renovations</h3>
+                    <p>Complete kitchen transformations from layout to finish. Cabinets, countertops, backsplash & more.</p>
+                    <a href="services.html#kitchens" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Flooring Installs</h3>
+                    <p>All types of flooring — tile, hardwood, LVP, laminate. Expert installation for every room.</p>
+                    <a href="services.html#flooring" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-paint-roller"></i></div>
+                    <h3>Interior & Exterior Painting</h3>
+                    <p>Clean lines, quality paint, professional prep. Transform any space inside or out.</p>
+                    <a href="services.html#painting" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-hammer"></i></div>
+                    <h3>Framing & Drywall</h3>
+                    <p>Structural framing, drywall hanging, taping, mud work and finishing — done right the first time.</p>
+                    <a href="services.html#drywall" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-home"></i></div>
+                    <h3>General Contracting</h3>
+                    <p>Full residential renovations. Whatever your project needs, we have the experience to deliver.</p>
+                    <a href="services.html" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== ABOUT PREVIEW ======================== -->
+    <section class="about-preview section section-dark">
+        <div class="container about-preview-inner">
+            <div class="about-preview-image">
+                <!-- Ricardo's job site selfie -->
+                <img src="images/about-ricardo.jpg" alt="Ricardo Del Rio Solis - Owner of Del Rio Renovations" loading="lazy">
+                <div class="experience-badge">
+                    <span class="exp-number">15+</span>
+                    <span class="exp-text">Years<br>Experience</span>
+                </div>
+            </div>
+            <div class="about-preview-text">
+                <span class="section-tag">Who We Are</span>
+                <h2>Built on <span class="gold">Family</span> & Hard Work</h2>
+                <p>At just 15 years old, founder Ricardo Del Rio Solis started working alongside his father on commercial job sites in downtown Denver — watching buildings go up from scratch and finishing lobbies and bathrooms with precision tile work.</p>
+                <p>After years working for some of the biggest residential bath remodeling companies in Colorado, Ricardo built Del Rio Renovations to deliver the quality, transparency, and communication that every homeowner deserves.</p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Lead Safe Certified & Insured</span>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Bilingual — English & Spanish</span>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Family-Owned & Operated</span>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Transparent Pricing & Communication</span>
+                    </div>
+                </div>
+                <a href="about.html" class="btn btn-primary">Our Full Story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== BEFORE/AFTER ======================== -->
+    <section class="before-after section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Results</span>
+                <h2>Before & <span class="gold">After</span></h2>
+                <p>See the transformations we deliver for real Colorado homeowners.</p>
+            </div>
+            <div class="ba-slider-container">
+                <div class="ba-slide active" id="baSlide1">
+                    <div class="ba-wrapper">
+                        <img src="images/gallery/before-1.jpg" alt="Bathroom Before Renovation" class="ba-before">
+                        <img src="images/gallery/after-1.jpg" alt="Bathroom After Renovation" class="ba-after">
+                        <input type="range" min="0" max="100" value="50" class="ba-range" aria-label="Before and after comparison slider">
+                        <div class="ba-label ba-label-before">Before</div>
+                        <div class="ba-label ba-label-after">After</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-2">
+                <a href="gallery.html" class="btn btn-outline-dark">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== WHY CHOOSE US ======================== -->
+    <section class="why-us section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why Del Rio</span>
+                <h2>What Sets Us <span class="gold">Apart</span></h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Total Transparency</h3>
+                    <p>We've been on both sides — contractor and client. We know the risks, concerns, and questions. You'll never be left guessing.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Clear Communication</h3>
+                    <p>Detailed plans, timelines, and pricing shared upfront. We stay on the same page throughout your entire project.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                    <h3>Detailed Estimates</h3>
+                    <p>Up-to-date pricing by the square foot. Detailed estimates and invoices provided so every dollar is accounted for.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Vetted Team</h3>
+                    <p>Every subcontractor is background-checked and vetted for quality, experience, and communication alignment.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-language"></i></div>
+                    <h3>Bilingual Service</h3>
+                    <p>Hablamos Español. Full service in English and Spanish so every homeowner feels comfortable and understood.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Certified & Insured</h3>
+                    <p>Lead Safe Certified and fully insured. Your home and family are protected on every job we take on.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== TESTIMONIALS ======================== -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Reviews</span>
+                <h2>What Our Clients <span class="gold">Say</span></h2>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Ricardo and Diego were very professional and did excellent work. I would recommend them to any one."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">HL</div>
+                        <div>
+                            <strong>Hans Lagasse</strong>
+                            <span>Google Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Outstanding quality and communication from start to finish. Del Rio Renovations truly cares about their clients."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">PL</div>
+                        <div>
+                            <strong>Princess Lopez</strong>
+                            <span>Google Review</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== SERVICE AREA ======================== -->
+    <section class="service-area section section-dark">
+        <div class="container service-area-inner">
+            <div class="service-area-text">
+                <span class="section-tag">Where We Work</span>
+                <h2>Serving <span class="gold">Aurora, Denver</span> & Beyond</h2>
+                <p>We serve homeowners throughout the Colorado Front Range — anywhere within 100 miles of Aurora. Whether you're in Denver, Colorado Springs, Boulder, Fort Collins, or surrounding communities, we'll come to you.</p>
+                <ul class="area-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Aurora</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Denver</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Centennial</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Lakewood</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Thornton</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Arvada</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Westminster</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Parker</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Castle Rock</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Brighton</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Colorado Springs</li>
+                    <li><i class="fas fa-map-marker-alt"></i> And more!</li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            </div>
+            <div class="service-area-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196281.12937852596!2d-104.87067!3d39.72943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c5e52f8da4b1d%3A0x30ca3e17a32fa6b8!2sAurora%2C%20CO!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="400" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== CTA BANNER ======================== -->
+    <section class="cta-banner">
+        <div class="container cta-inner">
+            <div class="cta-text">
+                <h2>Ready to Transform Your <span class="gold">Home?</span></h2>
+                <p>Let's talk about your project. Schedule a free consultation today.</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary btn-lg">Schedule a Consultation</a>
+                <a href="tel:7208768875" class="btn btn-outline btn-lg"><i class="fas fa-phone"></i> (720) 876-8875</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== FOOTER ======================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="Del Rio Renovations Logo" class="footer-logo">
+                    <p>Quality craftsmanship and transparent communication on every project. Family-owned, serving Colorado homeowners for 15+ years.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/delriorenovationsLLC" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/delriorenovationsllc.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#bathrooms">Bathroom Remodels</a></li>
+                        <li><a href="services.html#kitchens">Kitchen Renovations</a></li>
+                        <li><a href="services.html#flooring">Flooring Installation</a></li>
+                        <li><a href="services.html#painting">Interior & Exterior Painting</a></li>
+                        <li><a href="services.html#drywall">Framing & Drywall</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i> <a href="tel:7208768875">(720) 876-8875</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:delriorenovationsllc@gmail.com">delriorenovationsllc@gmail.com</a></li>
+                        <li><i class="fas fa-clock"></i> Mon–Sat: 7AM – 7PM</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Aurora, CO — Serving 100mi radius</li>
+                    </ul>
+                    <div class="footer-badges">
+                        <span class="badge"><i class="fas fa-shield-alt"></i> Lead Safe Certified</span>
+                        <span class="badge"><i class="fas fa-file-contract"></i> Fully Insured</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Del Rio Renovations Aurora LLC. All rights reserved.</p>
+                <p>Hablamos Español | Se habla Español</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======================== CHATBOT ======================== -->
+    <div class="chatbot-toggle" id="chatbotToggle">
+        <i class="fas fa-comments"></i>
+    </div>
+    <div class="chatbot" id="chatbot">
+        <div class="chatbot-header">
+            <img src="images/logo.png" alt="Del Rio" class="chatbot-logo">
+            <div>
+                <strong>Del Rio Renovations</strong>
+                <span>We typically reply instantly</span>
+            </div>
+            <button class="chatbot-close" id="chatbotClose"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chatbot-messages" id="chatMessages">
+            <div class="chat-msg bot">
+                <p>👋 Hi! Welcome to Del Rio Renovations. How can I help you today?</p>
+                <div class="chat-options">
+                    <button class="chat-option" data-action="services">What services do you offer?</button>
+                    <button class="chat-option" data-action="pricing">How does pricing work?</button>
+                    <button class="chat-option" data-action="timeline">How long will my project take?</button>
+                    <button class="chat-option" data-action="financing">Do you offer financing?</button>
+                    <button class="chat-option" data-action="area">What areas do you serve?</button>
+                    <button class="chat-option" data-action="consultation">Schedule a consultation</button>
+                    <button class="chat-option" data-action="call">Talk to someone now</button>
+                </div>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatInput" placeholder="Type a question...">
+            <button id="chatSend"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+/* ============================================
+   DEL RIO RENOVATIONS — MASTER STYLESHEET
+   Colors: Black (#0a0a0a) + Gold (#c8a84e)
+   Inspired by A2Z Builders layout
+   ============================================ */
+
+/* ---- RESET & BASE ---- */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gold: #c8a84e;
+    --gold-light: #dfc778;
+    --gold-dark: #a68a3a;
+    --black: #0a0a0a;
+    --dark: #111111;
+    --dark-2: #1a1a1a;
+    --dark-3: #222222;
+    --gray-dark: #333333;
+    --gray: #888888;
+    --gray-light: #cccccc;
+    --white: #ffffff;
+    --off-white: #f5f5f0;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+    --shadow: 0 4px 20px rgba(0,0,0,0.3);
+    --shadow-sm: 0 2px 10px rgba(0,0,0,0.15);
+    --radius: 8px;
+    --radius-lg: 16px;
+    --transition: all 0.3s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--gray-dark);
+    background: var(--white);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+}
+
+ul { list-style: none; }
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--black);
+}
+
+.gold { color: var(--gold); }
+
+.section {
+    padding: 80px 0;
+}
+
+.section-dark {
+    background: var(--dark);
+    color: var(--white);
+}
+
+.section-dark h2,
+.section-dark h3,
+.section-dark h4 {
+    color: var(--white);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.section-header p {
+    font-size: 1.1rem;
+    color: var(--gray);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section-tag {
+    display: inline-block;
+    background: rgba(200, 168, 78, 0.15);
+    color: var(--gold);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 6px 18px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+.text-center { text-align: center; }
+.mt-2 { margin-top: 2rem; }
+
+/* ---- BUTTONS ---- */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 14px 32px;
+    border-radius: var(--radius);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: var(--transition);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    background: var(--gold);
+    color: var(--black);
+    border-color: var(--gold);
+}
+
+.btn-primary:hover {
+    background: var(--gold-dark);
+    border-color: var(--gold-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(200, 168, 78, 0.4);
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.btn-outline:hover {
+    background: var(--white);
+    color: var(--black);
+    transform: translateY(-2px);
+}
+
+.btn-outline-dark {
+    background: transparent;
+    color: var(--black);
+    border-color: var(--gold);
+}
+
+.btn-outline-dark:hover {
+    background: var(--gold);
+    color: var(--black);
+    transform: translateY(-2px);
+}
+
+.btn-lg {
+    padding: 18px 40px;
+    font-size: 1rem;
+}
+
+/* ---- TOP BAR ---- */
+.top-bar {
+    background: var(--black);
+    color: var(--gray-light);
+    font-size: 0.85rem;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--dark-3);
+}
+
+.top-bar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.top-bar-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.top-bar-left a {
+    color: var(--gray-light);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.top-bar-left a:hover { color: var(--gold); }
+
+.top-bar-divider {
+    color: var(--gray);
+    margin: 0 6px;
+}
+
+.top-bar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top-bar-social a {
+    color: var(--gray-light);
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.top-bar-social a:hover { color: var(--gold); }
+
+.lang-toggle {
+    background: var(--gold);
+    color: var(--black);
+    border: none;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.lang-toggle:hover {
+    background: var(--gold-light);
+}
+
+/* ---- NAVBAR ---- */
+.navbar {
+    background: var(--dark);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.nav-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px;
+}
+
+.logo-img {
+    height: 60px;
+    width: auto;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-link {
+    color: var(--white);
+    font-family: var(--font-heading);
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    border-radius: var(--radius);
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--gold);
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: var(--gold);
+    transition: var(--transition);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 60%;
+}
+
+.nav-cta {
+    background: var(--gold);
+    color: var(--black) !important;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 12px 24px;
+    border-radius: var(--radius);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+
+.nav-cta:hover {
+    background: var(--gold-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(200, 168, 78, 0.4);
+}
+
+/* Dropdown */
+.has-dropdown {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--dark-2);
+    min-width: 220px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: var(--transition);
+    z-index: 100;
+    padding: 10px 0;
+}
+
+.has-dropdown:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px 20px;
+    color: var(--gray-light);
+    font-size: 0.9rem;
+    font-family: var(--font-heading);
+    font-weight: 500;
+}
+
+.dropdown a:hover {
+    color: var(--gold);
+    background: rgba(200, 168, 78, 0.1);
+}
+
+/* Hamburger */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background: var(--white);
+    border-radius: 3px;
+    transition: var(--transition);
+}
+
+.hamburger {
+    position: relative;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+}
+
+.hamburger::before { top: -9px; }
+.hamburger::after { top: 9px; }
+
+.nav-toggle.active .hamburger {
+    background: transparent;
+}
+
+.nav-toggle.active .hamburger::before {
+    top: 0;
+    transform: rotate(45deg);
+    background: var(--gold);
+}
+
+.nav-toggle.active .hamburger::after {
+    top: 0;
+    transform: rotate(-45deg);
+    background: var(--gold);
+}
+
+/* ---- HERO ---- */
+.hero {
+    position: relative;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background: url('../images/hero.jpg') center/cover no-repeat;
+    color: var(--white);
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(10,10,10,0.85) 0%, rgba(10,10,10,0.6) 100%);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+}
+
+.hero-badge {
+    display: inline-block;
+    background: rgba(200, 168, 78, 0.2);
+    color: var(--gold);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    border: 1px solid rgba(200, 168, 78, 0.3);
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: var(--white);
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.hero-sub {
+    font-size: 1.2rem;
+    color: var(--gray-light);
+    margin-bottom: 35px;
+    max-width: 600px;
+    line-height: 1.8;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.hero-stats {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-number {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--gold);
+}
+
+.stat-plus {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--gold);
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--gray-light);
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stat-icon {
+    color: var(--gold);
+    font-size: 1.4rem;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+}
+
+/* ---- SERVICES OVERVIEW ---- */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card {
+    background: var(--white);
+    border: 1px solid #eee;
+    border-radius: var(--radius-lg);
+    padding: 40px 30px;
+    text-align: center;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transition: var(--transition);
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow);
+    border-color: var(--gold);
+}
+
+.service-card:hover::before {
+    transform: scaleX(1);
+}
+
+.service-icon {
+    width: 70px;
+    height: 70px;
+    background: rgba(200, 168, 78, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 1.5rem;
+    color: var(--gold);
+    transition: var(--transition);
+}
+
+.service-card:hover .service-icon {
+    background: var(--gold);
+    color: var(--black);
+    transform: scale(1.1);
+}
+
+.service-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    font-size: 0.95rem;
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+.card-link {
+    color: var(--gold);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.card-link:hover {
+    color: var(--gold-dark);
+    gap: 10px;
+}
+
+/* ---- ABOUT PREVIEW ---- */
+.about-preview-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.about-preview-image {
+    position: relative;
+}
+
+.about-preview-image img {
+    border-radius: var(--radius-lg);
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.experience-badge {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background: var(--gold);
+    color: var(--black);
+    padding: 20px;
+    border-radius: var(--radius-lg);
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+
+.exp-number {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 900;
+    display: block;
+}
+
+.exp-text {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-preview-text .section-tag {
+    margin-bottom: 10px;
+}
+
+.about-preview-text h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.about-preview-text p {
+    color: var(--gray-light);
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.about-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 25px 0 30px;
+}
+
+.about-feature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-heading);
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--white);
+}
+
+.about-feature i {
+    color: var(--gold);
+    font-size: 1.1rem;
+}
+
+/* ---- BEFORE / AFTER SLIDER ---- */
+.ba-slider-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ba-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+}
+
+.ba-wrapper img {
+    width: 100%;
+    display: block;
+    height: 500px;
+    object-fit: cover;
+}
+
+.ba-after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: inset(0 50% 0 0);
+}
+
+.ba-range {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: ew-resize;
+    z-index: 10;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.ba-label {
+    position: absolute;
+    top: 20px;
+    padding: 6px 16px;
+    background: rgba(0,0,0,0.7);
+    color: var(--white);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.85rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 5;
+}
+
+.ba-label-before { left: 20px; }
+.ba-label-after { right: 20px; }
+
+/* ---- WHY CHOOSE US ---- */
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.why-card {
+    text-align: center;
+    padding: 40px 25px;
+    background: var(--dark-2);
+    border-radius: var(--radius-lg);
+    transition: var(--transition);
+    border: 1px solid var(--dark-3);
+}
+
+.why-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(200, 168, 78, 0.15);
+}
+
+.why-icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(200, 168, 78, 0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 1.3rem;
+    color: var(--gold);
+}
+
+.why-card h3 {
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+}
+
+.why-card p {
+    font-size: 0.95rem;
+    color: var(--gray);
+    line-height: 1.7;
+}
+
+/* ---- TESTIMONIALS ---- */
+.testimonials {
+    background: var(--off-white);
+}
+
+.testimonial-slider {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 35px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    border: 1px solid #eee;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.testimonial-stars {
+    color: var(--gold);
+    font-size: 1rem;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 3px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--gray-dark);
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author-avatar {
+    width: 45px;
+    height: 45px;
+    background: var(--gold);
+    color: var(--black);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.testimonial-author strong {
+    display: block;
+    font-size: 0.95rem;
+}
+
+.testimonial-author span {
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+/* ---- SERVICE AREA ---- */
+.service-area-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.service-area-text h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.service-area-text p {
+    color: var(--gray-light);
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+.area-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.area-list li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--gray-light);
+    font-size: 0.95rem;
+}
+
+.area-list li i {
+    color: var(--gold);
+    font-size: 0.85rem;
+}
+
+/* ---- CTA BANNER ---- */
+.cta-banner {
+    background: linear-gradient(135deg, var(--gold-dark) 0%, var(--gold) 50%, var(--gold-light) 100%);
+    padding: 60px 0;
+}
+
+.cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cta-text h2 {
+    font-size: 2.2rem;
+    color: var(--black);
+    margin-bottom: 8px;
+}
+
+.cta-text p {
+    font-size: 1.1rem;
+    color: var(--dark-2);
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.cta-banner .btn-primary {
+    background: var(--black);
+    color: var(--gold);
+    border-color: var(--black);
+}
+
+.cta-banner .btn-primary:hover {
+    background: var(--dark-2);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.cta-banner .btn-outline {
+    color: var(--black);
+    border-color: var(--black);
+}
+
+.cta-banner .btn-outline:hover {
+    background: var(--black);
+    color: var(--gold);
+}
+
+/* ---- FOOTER ---- */
+.footer {
+    background: var(--black);
+    color: var(--gray-light);
+    padding: 60px 0 0;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+    gap: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--dark-3);
+}
+
+.footer-logo {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: var(--gray);
+}
+
+.footer-social {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-social a {
+    width: 40px;
+    height: 40px;
+    background: var(--dark-2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-light);
+    transition: var(--transition);
+}
+
+.footer-social a:hover {
+    background: var(--gold);
+    color: var(--black);
+}
+
+.footer-col h4 {
+    font-size: 1rem;
+    color: var(--white);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+
+.footer-col ul li a:hover {
+    color: var(--gold);
+    padding-left: 5px;
+}
+
+.footer-contact li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px !important;
+    font-size: 0.9rem;
+}
+
+.footer-contact i {
+    color: var(--gold);
+    margin-top: 4px;
+    min-width: 16px;
+}
+
+.footer-badges {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(200, 168, 78, 0.1);
+    color: var(--gold);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 6px 14px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.footer-bottom {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--gray);
+}
+
+.footer-bottom p + p {
+    margin-top: 5px;
+    color: var(--gold);
+}
+
+/* ---- CHATBOT ---- */
+.chatbot-toggle {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: var(--gold);
+    color: var(--black);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(200, 168, 78, 0.5);
+    z-index: 9999;
+    transition: var(--transition);
+    animation: pulse-bot 2s infinite;
+}
+
+.chatbot-toggle:hover {
+    transform: scale(1.1);
+}
+
+@keyframes pulse-bot {
+    0%, 100% { box-shadow: 0 4px 20px rgba(200, 168, 78, 0.5); }
+    50% { box-shadow: 0 4px 35px rgba(200, 168, 78, 0.8); }
+}
+
+.chatbot {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 380px;
+    max-height: 520px;
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    z-index: 9998;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chatbot.active {
+    display: flex;
+}
+
+.chatbot-header {
+    background: var(--dark);
+    color: var(--white);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.chatbot-logo {
+    height: 30px;
+    width: auto;
+}
+
+.chatbot-header strong {
+    display: block;
+    font-size: 0.95rem;
+}
+
+.chatbot-header span {
+    font-size: 0.75rem;
+    color: var(--gray);
+}
+
+.chatbot-close {
+    background: none;
+    border: none;
+    color: var(--gray);
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: auto;
+    transition: var(--transition);
+}
+
+.chatbot-close:hover { color: var(--gold); }
+
+.chatbot-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-height: 360px;
+}
+
+.chat-msg {
+    max-width: 90%;
+}
+
+.chat-msg.bot {
+    align-self: flex-start;
+}
+
+.chat-msg.user {
+    align-self: flex-end;
+}
+
+.chat-msg p {
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.chat-msg.bot p {
+    background: var(--off-white);
+    color: var(--gray-dark);
+    border-bottom-left-radius: 4px;
+}
+
+.chat-msg.user p {
+    background: var(--gold);
+    color: var(--black);
+    border-bottom-right-radius: 4px;
+}
+
+.chat-options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.chat-option {
+    background: var(--white);
+    border: 1px solid var(--gold);
+    color: var(--gold-dark);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.82rem;
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: var(--transition);
+    text-align: left;
+}
+
+.chat-option:hover {
+    background: var(--gold);
+    color: var(--black);
+}
+
+.chatbot-input {
+    display: flex;
+    border-top: 1px solid #eee;
+    padding: 12px;
+    gap: 8px;
+}
+
+.chatbot-input input {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    outline: none;
+    transition: var(--transition);
+}
+
+.chatbot-input input:focus {
+    border-color: var(--gold);
+}
+
+.chatbot-input button {
+    background: var(--gold);
+    color: var(--black);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.chatbot-input button:hover {
+    background: var(--gold-dark);
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 992px) {
+    .services-grid,
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-preview-inner,
+    .service-area-inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-bar-inner {
+        justify-content: center;
+    }
+
+    .top-bar-left {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 350px;
+        height: 100vh;
+        background: var(--dark);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 80px 30px 30px;
+        gap: 0;
+        transition: right 0.4s ease;
+        box-shadow: -5px 0 30px rgba(0,0,0,0.5);
+        z-index: 999;
+        overflow-y: auto;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-link {
+        padding: 12px 0;
+        width: 100%;
+        border-bottom: 1px solid var(--dark-3);
+    }
+
+    .nav-link::after { display: none; }
+
+    .nav-cta {
+        margin: 20px 0 0;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    .has-dropdown .dropdown {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        background: transparent;
+        padding-left: 20px;
+    }
+
+    .hero {
+        min-height: 80vh;
+        padding: 100px 0 60px;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-sub {
+        font-size: 1rem;
+    }
+
+    .hero-stats {
+        gap: 25px;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .services-grid,
+    .why-grid,
+    .testimonial-slider {
+        grid-template-columns: 1fr;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .about-preview-image img {
+        height: 350px;
+    }
+
+    .experience-badge {
+        bottom: -10px;
+        right: 10px;
+    }
+
+    .about-features {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .cta-buttons {
+        justify-content: center;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .area-list {
+        grid-template-columns: 1fr;
+    }
+
+    .ba-wrapper img,
+    .ba-after {
+        height: 300px;
+    }
+
+    .chatbot {
+        right: 10px;
+        left: 10px;
+        width: auto;
+        bottom: 90px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+}
+/* ============================================
+   DEL RIO RENOVATIONS — MAIN JAVASCRIPT
+   ============================================ */
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    // ---- NAVBAR SCROLL ----
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+
+    // ---- MOBILE NAV TOGGLE ----
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    if (navToggle) {
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu on link click
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    }
+
+    // ---- STAT COUNTER ANIMATION ----
+    const statNumbers = document.querySelectorAll('.stat-number[data-target]');
+
+    const animateCount = (el) => {
+        const target = parseInt(el.getAttribute('data-target'));
+        const duration = 2000;
+        const step = target / (duration / 16);
+        let current = 0;
+
+        const update = () => {
+            current += step;
+            if (current >= target) {
+                el.textContent = target;
+            } else {
+                el.textContent = Math.floor(current);
+                requestAnimationFrame(update);
+            }
+        };
+        update();
+    };
+
+    const statObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateCount(entry.target);
+                statObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    statNumbers.forEach(num => statObserver.observe(num));
+
+    // ---- SCROLL REVEAL ANIMATION ----
+    const revealElements = document.querySelectorAll(
+        '.service-card, .why-card, .testimonial-card, .about-preview-inner, .section-header'
+    );
+
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('revealed');
+                revealObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    revealElements.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        revealObserver.observe(el);
+    });
+
+    // Add revealed class styles
+    const style = document.createElement('style');
+    style.textContent = `.revealed { opacity: 1 !important; transform: translateY(0) !important; }`;
+    document.head.appendChild(style);
+
+    // ---- BEFORE/AFTER SLIDER ----
+    const baRanges = document.querySelectorAll('.ba-range');
+    baRanges.forEach(range => {
+        range.addEventListener('input', function () {
+            const val = this.value;
+            const afterImg = this.parentElement.querySelector('.ba-after');
+            if (afterImg) {
+                afterImg.style.clipPath = `inset(0 ${100 - val}% 0 0)`;
+            }
+        });
+    });
+
+    // ---- LANGUAGE TOGGLE ----
+    const langToggle = document.getElementById('langToggle');
+    let isSpanish = false;
+
+    const translations = {
+        heroH1: {
+            en: 'Quality Bathroom Remodels <span class="gold">Built to Last</span>',
+            es: 'Remodelaciones de Baños de Calidad <span class="gold">Hechas para Durar</span>'
+        },
+        heroSub: {
+            en: 'Family-owned general contracting with 15+ years of hands-on experience. Serving Aurora, Denver, and all of the Colorado Front Range.',
+            es: 'Contratista general familiar con más de 15 años de experiencia. Sirviendo Aurora, Denver y todo el Front Range de Colorado.'
+        },
+        heroCta: {
+            en: 'Schedule a Consultation',
+            es: 'Agendar una Consulta'
+        },
+        heroGallery: {
+            en: 'View Our Work',
+            es: 'Ver Nuestro Trabajo'
+        }
+    };
+
+    if (langToggle) {
+        langToggle.addEventListener('click', () => {
+            isSpanish = !isSpanish;
+            langToggle.textContent = isSpanish ? 'EN' : 'ES';
+            langToggle.title = isSpanish ? 'Switch to English' : 'Cambiar a Español';
+
+            const heroH1 = document.querySelector('.hero h1');
+            const heroSub = document.querySelector('.hero-sub');
+
+            if (heroH1) heroH1.innerHTML = isSpanish ? translations.heroH1.es : translations.heroH1.en;
+            if (heroSub) heroSub.textContent = isSpanish ? translations.heroSub.es : translations.heroSub.en;
+        });
+    }
+
+    // ---- CHATBOT ----
+    const chatbotToggle = document.getElementById('chatbotToggle');
+    const chatbot = document.getElementById('chatbot');
+    const chatbotClose = document.getElementById('chatbotClose');
+    const chatMessages = document.getElementById('chatMessages');
+    const chatInput = document.getElementById('chatInput');
+    const chatSend = document.getElementById('chatSend');
+
+    if (chatbotToggle) {
+        chatbotToggle.addEventListener('click', () => {
+            chatbot.classList.toggle('active');
+            chatbotToggle.style.display = chatbot.classList.contains('active') ? 'none' : 'flex';
+        });
+    }
+
+    if (chatbotClose) {
+        chatbotClose.addEventListener('click', () => {
+            chatbot.classList.remove('active');
+            chatbotToggle.style.display = 'flex';
+        });
+    }
+
+    // Chatbot responses
+    const botResponses = {
+        services: `We offer a full range of renovation services:\n\n🛁 <strong>Bathroom Remodels</strong> — Curbless showers, vanity installs, full custom baths, acrylic & groutless tile\n🍳 <strong>Kitchen Renovations</strong>\n🏠 <strong>Flooring Installs</strong> — All types\n🎨 <strong>Interior & Exterior Painting</strong>\n🔨 <strong>Framing, Drywall & Mud Work</strong>\n🏗️ <strong>General Contracting</strong>\n\nWould you like to schedule a consultation?`,
+
+        pricing: `Before accepting any job, we visit your home to see the scope of work in person and talk to the homeowner.\n\nWe use <strong>up-to-date pricing by the square foot</strong> depending on material and scope of work. <strong>Detailed estimates and invoices are always provided</strong> so we're clear on every part of the project.\n\nWant to schedule a free in-person consultation?`,
+
+        timeline: `Great question! Timeline depends on the size and scope of the project. For example:\n\n⚡ <strong>Bath conversion</strong> — Can be as fast as <strong>2 days</strong> depending on material\n🏠 <strong>Full bathroom remodel</strong> — Typically 1-3 weeks\n\nAfter reviewing the scope of work, we create a <strong>detailed plan and timeline</strong> that is shared with you before we start.\n\nWant to discuss your specific project?`,
+
+        financing: `Yes! If needed, we can work together with a <strong>third-party financing company</strong> to help you get your dream space without clearing your account.\n\nWe also accept <strong>cash, check, and Zelle</strong>.\n\nWant to learn more? Schedule a consultation!`,
+
+        area: `We serve <strong>Aurora, Denver, and anywhere within 100 miles of Aurora!</strong> 🏔️\n\nThat includes Centennial, Lakewood, Thornton, Arvada, Parker, Castle Rock, Colorado Springs, and many more.\n\nAre you in our service area? Let's chat about your project!`,
+
+        consultation: `We'd love to discuss your project! Here's how to get started:\n\n📋 <a href="contact.html" style="color: #c8a84e; font-weight: bold;">Fill out our consultation form →</a>\n\nOr if you prefer:\n📞 <a href="tel:7208768875" style="color: #c8a84e; font-weight: bold;">Call us: (720) 876-8875</a>\n📧 <a href="mailto:delriorenovationsllc@gmail.com" style="color: #c8a84e; font-weight: bold;">Email us</a>\n\n🕐 We're available <strong>Mon–Sat, 7AM – 7PM</strong>\n🇺🇸🇲🇽 Bilingual — English & Spanish`,
+
+        call: `Ready to talk? Give us a call right now!\n\n📞 <a href="tel:7208768875" style="color: #c8a84e; font-weight: bold; font-size: 1.1rem;">(720) 876-8875</a>\n\n🕐 Available <strong>Mon–Sat, 7AM – 7PM</strong>\n🇺🇸🇲🇽 Hablamos Español\n\nRicardo or a team member will be happy to help!`,
+
+        permits: `Unless it is absolutely necessary for the client and/or the scope of work, permits are typically not needed. But if they are, <strong>we can help you with the permit process</strong>.\n\nHave another question?`,
+
+        subcontractors: `Yes, we work with subcontractors — but they are all <strong>background checked</strong>, asked about previous employment and experience, and we make sure they share our same beliefs in <strong>quality and communication</strong>.\n\nYour project is always in good hands!`,
+
+        default: `Thanks for your message! For the fastest response:\n\n📞 <a href="tel:7208768875" style="color: #c8a84e; font-weight: bold;">Call us: (720) 876-8875</a>\n📋 <a href="contact.html" style="color: #c8a84e; font-weight: bold;">Schedule a consultation</a>\n\nOr ask me about:\n• Our services\n• Pricing & estimates\n• Project timelines\n• Financing options\n• Service areas`
+    };
+
+    function addBotMessage(text, showOptions = false) {
+        const msgDiv = document.createElement('div');
+        msgDiv.className = 'chat-msg bot';
+
+        let html = `<p>${text.replace(/\n/g, '<br>')}</p>`;
+
+        if (showOptions) {
+            html += `<div class="chat-options">
+                <button class="chat-option" data-action="consultation">Schedule a consultation</button>
+                <button class="chat-option" data-action="call">Talk to someone now</button>
+            </div>`;
+        }
+
+        msgDiv.innerHTML = html;
+        chatMessages.appendChild(msgDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+
+        // Rebind new option buttons
+        msgDiv.querySelectorAll('.chat-option').forEach(btn => {
+            btn.addEventListener('click', handleOptionClick);
+        });
+    }
+
+    function addUserMessage(text) {
+        const msgDiv = document.createElement('div');
+        msgDiv.className = 'chat-msg user';
+        msgDiv.innerHTML = `<p>${text}</p>`;
+        chatMessages.appendChild(msgDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    function handleOptionClick(e) {
+        const action = e.target.getAttribute('data-action');
+        const text = e.target.textContent;
+        addUserMessage(text);
+
+        setTimeout(() => {
+            if (botResponses[action]) {
+                const showFollowup = !['consultation', 'call'].includes(action);
+                addBotMessage(botResponses[action], showFollowup);
+            }
+        }, 500);
+    }
+
+    // Bind initial option buttons
+    document.querySelectorAll('.chat-option').forEach(btn => {
+        btn.addEventListener('click', handleOptionClick);
+    });
+
+    // Free text input
+    function handleChatInput() {
+        const text = chatInput.value.trim();
+        if (!text) return;
+
+        addUserMessage(text);
+        chatInput.value = '';
+
+        setTimeout(() => {
+            const lower = text.toLowerCase();
+
+            if (lower.includes('service') || lower.includes('what do you') || lower.includes('offer')) {
+                addBotMessage(botResponses.services, true);
+            } else if (lower.includes('price') || lower.includes('cost') || lower.includes('estimate') || lower.includes('how much')) {
+                addBotMessage(botResponses.pricing, true);
+            } else if (lower.includes('how long') || lower.includes('timeline') || lower.includes('time') || lower.includes('duration')) {
+                addBotMessage(botResponses.timeline, true);
+            } else if (lower.includes('financ') || lower.includes('payment') || lower.includes('pay') || lower.includes('zelle')) {
+                addBotMessage(botResponses.financing, true);
+            } else if (lower.includes('area') || lower.includes('where') || lower.includes('location') || lower.includes('denver') || lower.includes('aurora') || lower.includes('serve')) {
+                addBotMessage(botResponses.area, true);
+            } else if (lower.includes('consult') || lower.includes('schedule') || lower.includes('appointment') || lower.includes('book')) {
+                addBotMessage(botResponses.consultation);
+            } else if (lower.includes('call') || lower.includes('phone') || lower.includes('talk') || lower.includes('speak')) {
+                addBotMessage(botResponses.call);
+            } else if (lower.includes('permit')) {
+                addBotMessage(botResponses.permits, true);
+            } else if (lower.includes('sub') || lower.includes('contractor') || lower.includes('worker') || lower.includes('crew')) {
+                addBotMessage(botResponses.subcontractors, true);
+            } else if (lower.includes('bathroom') || lower.includes('bath') || lower.includes('shower') || lower.includes('tub')) {
+                addBotMessage(`🛁 Bathrooms are our specialty! We do full custom remodels including:\n\n• Curbless shower pans\n• Vanity installs\n• Full custom baths\n• Acrylic & groutless tile installs\n• Walk-in showers with glass doors\n• Freestanding tub installs\n\nWant to schedule a consultation to discuss your bathroom project?`, true);
+            } else if (lower.includes('kitchen')) {
+                addBotMessage(`🍳 Yes! We do full kitchen renovations — from demo to finish.\n\nWant to schedule a consultation to discuss your kitchen project?`, true);
+            } else if (lower.includes('floor')) {
+                addBotMessage(`🏠 We install all types of flooring — tile, hardwood, LVP, laminate, and more.\n\nWant to schedule a consultation to discuss your flooring project?`, true);
+            } else if (lower.includes('paint')) {
+                addBotMessage(`🎨 We offer both interior and exterior painting services with professional prep and quality finishes.\n\nWant to schedule a consultation?`, true);
+            } else if (lower.includes('spanish') || lower.includes('español') || lower.includes('habla')) {
+                addBotMessage(`🇲🇽 ¡Sí, hablamos Español! Ricardo y el equipo hablan inglés y español.\n\n📞 Llámenos: <a href="tel:7208768875" style="color: #c8a84e; font-weight: bold;">(720) 876-8875</a>\n\n¡Estamos aquí para ayudarle con su proyecto!`, true);
+            } else if (lower.includes('hello') || lower.includes('hi') || lower.includes('hey') || lower.includes('hola')) {
+                addBotMessage(`👋 Hey! Thanks for reaching out to Del Rio Renovations. How can I help you today?\n\nI can answer questions about our services, pricing, timelines, or help you schedule a consultation!`, false);
+            } else {
+                addBotMessage(botResponses.default);
+            }
+        }, 600);
+    }
+
+    if (chatSend) {
+        chatSend.addEventListener('click', handleChatInput);
+    }
+
+    if (chatInput) {
+        chatInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') handleChatInput();
+        });
+    }
+
+    // ---- ACTIVE NAV LINK ----
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === currentPage) {
+            link.classList.add('active');
+        }
+    });
+
+});
